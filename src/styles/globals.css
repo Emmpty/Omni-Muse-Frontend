@@ -1,0 +1,67 @@
+@import './reset.css';
+@import './theme.css';
+@import './lib.cover.css';
+@import './animations.css';
+
+@layer tailwind {
+  @tailwind base;
+}
+@tailwind components;
+@tailwind utilities;
+
+.show-mobile {
+  display: none;
+}
+
+/* Don't zoom text input on iOS */
+@media only screen and (hover: none) and (pointer: coarse) {
+  input:focus,
+  select:focus,
+  textarea:focus {
+    font-size: 16px !important;
+  }
+}
+
+/* helpful hiding classes for mobile */
+@media only screen and (max-width: 768px) {
+  .hide-mobile {
+    display: none;
+  }
+
+  .show-mobile {
+    display: block;
+  }
+}
+
+.frame-decor:hover {
+  animation: flicker-25 2.5s ease-in-out infinite alternate;
+}
+
+.frame-decor:hover {
+  animation: flicker-50 2s ease-in-out infinite alternate;
+}
+
+.frame-decor:hover {
+  animation: flicker-75 1.5s ease-in-out infinite alternate;
+}
+
+.frame-decor:hover {
+  animation: flicker-100 1s ease-in-out infinite alternate;
+}
+
+.frame-decor .footer {
+  padding-bottom: 36px !important;
+}
+
+.frame-decor .footer-abs > * {
+  bottom: 36px !important;
+}
+
+/* Google Recapcha Hiding */
+.grecaptcha-badge {
+  visibility: hidden;
+}
+
+.card {
+  @apply bg-white border border-gray-200 rounded-lg shadow  dark:bg-zinc-800 dark:border-zinc-700;
+}

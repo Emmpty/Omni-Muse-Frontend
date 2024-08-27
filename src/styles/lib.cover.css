@@ -1,0 +1,67 @@
+.mantine-Progress-bar {
+  background-color: #9a5dff !important; /* 强制改变路由跳转进度条颜色 */
+}
+
+/* 修改markdown相关默认样式 */
+.popover-markdown pre {
+  overflow: auto;
+  margin-top: 5px;
+}
+
+.popover-markdown p {
+  margin-bottom: 5px;
+}
+
+.popover-markdown {
+  font-size: 0.75em;
+}
+
+.popover-markdown *:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.popover-markdown *:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.markdown-content hr {
+  border-width: 0;
+  border-top: 4px solid #777;
+  margin: 30px 0;
+}
+
+.markdown-content h2 {
+  line-height: 1.1;
+  margin-bottom: 0.25em;
+}
+
+.markdown-content h2 + p {
+  margin-top: 0;
+}
+
+.markdown-content blockquote {
+  margin: 20px 0;
+  background: #222;
+  padding: 30px;
+  border-top: 4px solid #333;
+}
+
+.markdown-content blockquote *:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-content img {
+  max-width: 100%;
+}
+
+.markdown-content a {
+  color: #9a5dff;
+  text-decoration: underline;
+}
+
+.theme-light .markdown-content blockquote {
+  background: #eee;
+  border-top: 4px solid #ddd;
+}

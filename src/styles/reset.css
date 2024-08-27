@@ -1,0 +1,72 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: PingFang SC, Microsoft YaHei, -apple-system, BlinkMacSystemFont, Roboto, Helvetica,
+    Arial, sans-serif;
+  block-size: 100%;
+  inline-size: 100%;
+  overflow: hidden;
+  background-image: url('../../public/images/bg.jpg');
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+html {
+  container: root layout / size;
+}
+
+#__next {
+  height: 100%;
+}
+
+/* 谷歌 */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+/* 火狐 */
+input {
+  -moz-appearance: textfield;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img.load-error {
+  opacity: 1;
+  background: rgba(255, 00, 00, 0.35);
+}
+
+iframe {
+  border: none;
+}
+
+ul {
+  @apply list-disc;
+}
+ol {
+  @apply list-decimal;
+}
+
+.x-button:active {
+  transform: translateY(1px);
+}
+
+/* .mantine-Paper-root
+  .mantine-Modal-body
+  .mantine-Group-root
+  .mantine-UnstyledButton-root.mantine-Button-root:nth-child(2) {
+  background: linear-gradient(90deg, rgb(154, 93, 255) 0%, rgb(119, 96, 255) 100%);
+} */

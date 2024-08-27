@@ -1,0 +1,39 @@
+.xtable {
+  width: 100%;
+  text-align: left;
+}
+
+.xtable th,
+.xtable td {
+  padding: 16px;
+}
+
+.xtable thead,
+.xtable tbody {
+  font-family: 'PingFang SC';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  text-transform: capitalize;
+}
+
+.xtable thead {
+  color: #9b9c9e;
+}
+
+.xtable tbody {
+  color: #fff;
+}
+
+.xtable th {
+  font-weight: 400;
+}
+
+.xtable tr {
+  border-bottom: 1px solid #2d2d2d;
+}
+
+.xtable tbody :last-child {
+  border: none;
+}
